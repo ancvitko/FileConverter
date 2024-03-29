@@ -1,0 +1,22 @@
+{
+  "name": "fileconverter",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build --no-optimize --no-scope-hoist --dist-dir public",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "locomotive-scroll": "^4.1.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
